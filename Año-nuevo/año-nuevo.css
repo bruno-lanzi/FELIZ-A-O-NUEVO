@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+img , figure{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    object-position: center center;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+video{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    object-position: center center;
+}
+
+body {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.938);
+    
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+.titulos{
+    
+    min-width: 250px;
+    min-height: 70vh;
+    color: rgb(234, 234, 234);
+    border: black;
+    /*margin: 1em 0;*/
+    padding: 2em;
+    text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.589);
+    font-family: 'Kaushan Script', cursive; ;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.titulos .titulo{
+    margin: 20px;
+    padding: 20px;
+    
+    font-weight: 500em;
+    font-size: 5em;
+    line-height: 1em;
+    
+   
+}
+.titulos .subtitulo{
+    margin: 20px;
+    padding: 20px;
+    
+    font-weight: 300em;
+    font-size: 3em;
+    line-height: 1em;
+    
+    
+}
+
+
+div{
+    
+    
+    
+    margin: 20px;
+    padding: 20px;
+
+
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.botoncito{
+    margin: 1em;
+    background: rgb(181, 181, 181);
+    border: 3px solid rgba(0, 0, 0, 0.418);
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+
+}
+
+.botoncito:hover{
+    background: rgb(1, 1, 72);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgb(252, 252, 252);
+    color:white;
+}
+
+
+

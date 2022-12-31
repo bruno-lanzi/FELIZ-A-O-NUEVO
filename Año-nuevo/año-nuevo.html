@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>¡¡FELIZ AÑO NUEVO!!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="año-nuevo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <main class="titulos">
+        <h2 class="titulo">¡¡FELIZ AÑO NUEVO!!</h2>
+        <h3 class="subtitulo">VAMOS A FESTEJAR</h3>
+    </main>
+    <div class="boton">
+        
+        <button class="botoncito" id="felicidades" onclick="emoji()" >EMOJIS</button>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    
+        <script>
+            function emoji(){
+                const jsConfetti = new JSConfetti();
+
+                document.querySelector("#felicidades").addEventListener("click", (e) =>{
+                    jsConfetti.addConfetti({
+                           emojis: ['😀', '😆', '😍', '😎', '😝', '😏'],
+                    });
+                });
+            }
+        </script>
+
+        <button class="botoncito" id="corazon" onclick="corazones()" >CORAZONES</button>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+        <script>
+            function corazones(){
+                const jsConfetti = new JSConfetti();
+
+                document.querySelector("#corazon").addEventListener("click", (e) =>{
+                    jsConfetti.addConfetti({
+                        emojis: ['💓', '💕', '💗', '💘', '💝', '💞'],
+                    });
+                });
+            }
+        </script>
+
+        <button class="botoncito" id="estrellas" onclick="estrellas()" >ESTRELLAS</button>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+        <script>
+            function estrellas(){
+                const jsConfetti = new JSConfetti();
+
+                document.querySelector("#estrellas").addEventListener("click", (e) =>{
+                    jsConfetti.addConfetti({
+                        emojis: ['🌟', '⭐', '✨', '⚡', '💫', '⭐'],
+                    });
+                });
+            }
+        </script>
+        
+        <button class="botoncito" id="papelitos" onclick="colores()" >COLORES</button>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    
+        <script>
+            function colores(){
+                const jsConfetti = new JSConfetti();
+
+                document.querySelector("#papelitos").addEventListener("click", (e) =>{
+                    jsConfetti.addConfetti();
+                });
+            }
+        </script>
+    </div>    
+
+</body>
+
+
+
+</html>
