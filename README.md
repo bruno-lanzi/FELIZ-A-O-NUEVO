@@ -11,4 +11,4 @@ Para festejar año nuevo, hice este proyecto importando librerías y dándole es
 [Portfolio web](https://bruno-lanzi.github.io/mi-portfolio/MIPORFOLIO/inicio.html)
 
 ## Ejemplo en vivo
-[https://bruno-lanzi.github.io/mi-portfolio/MIPORFOLIO/inicio.html](https://bruno-lanzi.github.io/mi-portfolio/MIPORFOLIO/inicio.html)
+[https://bruno-lanzi.github.io/NewYear/Año-nuevo/año-nuevo.html](https://bruno-lanzi.github.io/NewYear/Año-nuevo/año-nuevo.html)
